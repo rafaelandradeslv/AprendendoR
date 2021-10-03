@@ -19,3 +19,15 @@ mult <- c(2:11)
 x
 
 x * mult
+
+# Vetor menor que o alvo
+y <- c(1:3)
+x * y # Erro, comprimento maior que o objeto
+
+# ajustar
+y <- c(2:3)
+x
+y
+x * y
+
+# os vetores tem qu ser do mesmo tamanho ou múltiplo para cada um
